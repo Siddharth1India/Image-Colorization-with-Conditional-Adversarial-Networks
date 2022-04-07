@@ -7,3 +7,10 @@ There are multiple approaches to colorize image with deep learning. Some are hav
 Goal is not to recreate real colored image (It is not possible according to information theory as one cannot extract more information from image than it already have. As B&W image does not have information about real scene, we cannot extract that). Goal is to colorize image to make it similar to real image.
 
 For eg. If you colorize image of car using this model, it may produce white car or red car but it will produce colored image which looks realistic.
+
+Here, I am going to implement [Image-to-Image Translation with Conditional Adversarial Networks
+](https://arxiv.org/pdf/1611.07004.pdf) to colorize image. 
+
+This method uses 2 kinds of losses in computational task:
+1. L1 Loss
+2. Adverserial Loss 
